@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/Message")
 @CrossOrigin(origins = "*")
 
-public class MenssageControlador {
+public class MessageControlador {
      @Autowired
     private MessageServicio messageService;
     @GetMapping("/all")
